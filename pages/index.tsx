@@ -17,12 +17,7 @@ const HomePage = ({ posts }: HomeProps) => {
 	return (
 		<MainLayout title={`${data.website.name} | Home`}>
 			<Box as="header" mb={14}>
-				<Heading
-					as="h1"
-					fontSize={['3xl', '4xl', '5xl']}
-					textAlign="center"
-					mb={4}
-				>
+				<Heading as="h1" fontSize={['3xl', '4xl', '5xl']} textAlign="center" mb={4}>
 					Hi, I&apos;m&nbsp;
 					<Box as="span" color="brand">
 						{data.owner.firstName}
@@ -31,8 +26,7 @@ const HomePage = ({ posts }: HomeProps) => {
 					<AnimatedTag />
 				</Heading>
 				<Text textAlign="left" fontSize={['md', '2xl']} mb={4}>
-					I&apos;m a Front-end developer that used to be a Lawyer, with over{' '}
-					{getTimeWorking()} of professional web development experience.
+					I&apos;m a Front-end developer that used to be a Lawyer, with over {getTimeWorking()} of professional web development experience.
 				</Text>
 				<SocialIcons justifyContent="center" />
 			</Box>
