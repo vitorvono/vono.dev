@@ -10,7 +10,7 @@ export const projects: Project[] = [
 		name: 'ePlay',
 		github: 'https://github.com/vitorvono/eplay',
 		description:
-			'E-comerce project created using React and using clean code fundamentals',
+			'E-comerce project created using React and clean code fundamentals',
 		demo: 'https://eplay-peach.vercel.app/',
 	},
 	{
