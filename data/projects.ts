@@ -14,7 +14,7 @@ export const projects: Project[] = [
 		demo: 'https://eplay-peach.vercel.app/',
 	},
 	{
-		name: 'Task mannager',
+		name: 'Task manager',
 		github: 'https://github.com/vitorvono/minhas-tarefas',
 		description:
 			'',
