@@ -31,8 +31,7 @@ const HomePage = ({ posts }: HomeProps) => {
 					<AnimatedTag />
 				</Heading>
 				<Text textAlign="left" fontSize={['md', '2xl']} mb={4}>
-					I&apos;m a Front-end developer that used to be a Lawyer, with over{' '}
-					{getTimeWorking()} of professional web development experience.
+					I&apos;m a Front-end developer that used to be a Lawyer, with over {getTimeWorking()} of professional web development experience.
 				</Text>
 				<SocialIcons justifyContent="center" />
 			</Box>
